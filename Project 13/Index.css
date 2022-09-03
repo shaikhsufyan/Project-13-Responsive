@@ -1,0 +1,303 @@
+ @media (max-width:980px) {
+     * {
+         margin: 0%;
+         padding: 0%;
+     }
+
+     .front-div {
+         background-color: rgb(134, 53, 240);
+     }
+
+     .navbar {
+         display: flex;
+         justify-content: space-between;
+     }
+
+     .nav-logo img {
+         width: 80px;
+         margin: 20px;
+     }
+
+     .bar {
+         margin: 20px;
+         font-size: 24px;
+         color: white;
+     }
+
+     .navbar ul {
+         display: none;
+
+     }
+
+     .navbar button {
+         display: none;
+     }
+
+     .front-page {
+         text-align: center;
+         color: white;
+         margin-top: 80px;
+         font-family: 'Lato', sans-serif;
+     }
+
+     .front-page p {
+         color: rgb(228, 211, 211);
+         margin-top: 20px;
+     }
+
+     .front-page button {
+         width: 140px;
+         height: 38px;
+         background: rgb(65, 154, 238);
+         color: white;
+         border: none;
+         font-size: 15px;
+         margin-top: 20px;
+     }
+
+     .front-page img {
+         width: 85%;
+     }
+
+     .feature {
+         text-align: center;
+         font-family: 'Lato', sans-serif;
+     }
+
+     .feature img {
+         width: 80%;
+         margin-top: 50px;
+     }
+
+     .feature h1 {
+         font-size: 30px;
+
+
+     }
+
+     .feature ul h3 {
+         margin-top: 20px;
+         color: rgb(26, 25, 25);
+     }
+
+     .feature ul li {
+         margin-top: 4px;
+         color: rgb(116, 112, 112);
+     }
+
+     .service {
+         text-align: center;
+         font-family: 'Lato', sans-serif;
+
+     }
+
+     .service h1 {
+         margin-top: 30px;
+     }
+
+     .card {
+         margin-left: 15%;
+     }
+
+     .service .first-card {
+         width: 150px;
+         height: 180px;
+         background-color: rgb(252, 249, 249);
+         box-shadow: 2px 2px 2px 2px rgb(201, 196, 196);
+         border-radius: 10px;
+         margin: 20px;
+     }
+
+     .first-card i {
+         align-items: center;
+         font-size: 42px;
+         margin-top: 13px;
+         width: 70px;
+         height: 70px;
+         background-color: rgb(185, 177, 177);
+
+         border-radius: 50%;
+     }
+
+     .first-card p {
+         color: rgb(107, 103, 103);
+     }
+
+     .first-card h3 {
+         margin-top: 10px;
+     }
+ }
+
+ @media (min-width:980px) {
+     * {
+         margin: 0%;
+         padding: 0%;
+     }
+
+     .front-div {
+         background-color: rgb(134, 53, 240);
+     }
+
+     .navbar {
+         display: flex;
+         justify-content: space-between;
+     }
+
+     .nav-logo img {
+         width: 80px;
+         margin: 20px;
+     }
+
+     .bar {
+         display: none;
+     }
+
+     .navbar ul {
+         display: flex;
+     }
+
+     .navbar ul li {
+
+         margin-inline: 20px;
+         list-style: none;
+         color: white;
+         font-size: 20px;
+         margin-top: 30px;
+
+     }
+
+     .navbar button {
+         width: 130px;
+         height: 38px;
+         background-color: rgb(65, 154, 238);
+         color: white;
+         border: none;
+         font-size: 15px;
+         margin-top: 20px;
+         margin: 20px;
+
+     }
+
+     .front-page {
+         display: flex;
+         justify-content: space-between;
+
+         color: white;
+         margin-top: 80px;
+         font-family: 'Lato', sans-serif;
+
+     }
+
+     .front-page .theory {
+         margin-top: 70px;
+         margin-left: 80px;
+
+     }
+
+     .front-page h1 {
+         font-size: 45px;
+     }
+
+     .front-page p {
+         color: rgb(228, 211, 211);
+         margin-top: 20px;
+     }
+
+     .front-page button {
+         width: 140px;
+         height: 38px;
+         background: rgb(65, 154, 238);
+         color: white;
+         border: none;
+         font-size: 15px;
+         margin-top: 20px;
+     }
+
+     .front-page img {
+         width: 40%;
+         margin-top: -20px;
+         margin: 20px;
+     }
+
+     .feature {
+         display: flex;
+         justify-content: space-between;
+         font-family: 'Lato', sans-serif;
+     }
+
+     .feature img {
+         width: 40%;
+         margin-top: 50px;
+     }
+
+     .feature-list {
+         margin-top: 120px;
+         margin-right: 40px;
+     }
+
+     .feature ul h3 {
+         margin-top: 20px;
+         color: rgb(26, 25, 25);
+     }
+
+     .feature ul li {
+         margin-top: 4px;
+         color: rgb(116, 112, 112);
+     }
+
+     .service {
+         text-align: center;
+         font-family: 'Lato', sans-serif;
+
+     }
+
+     .service h1 {
+         margin-top: 30px;
+     }
+
+     .card {
+         display: flex;
+         justify-content: space-around;
+         margin-top: 30px;
+     }
+
+     .service .first-card {
+         width: 150px;
+         height: 180px;
+         background-color: rgb(252, 249, 249);
+         box-shadow: 2px 2px 2px 2px rgb(201, 196, 196);
+         border-radius: 10px;
+         margin: 20px;
+     }
+
+     .first-card i {
+         align-items: center;
+         font-size: 42px;
+         margin-top: 13px;
+         width: 70px;
+         height: 70px;
+         background-color: rgb(185, 177, 177);
+         border-radius: 50%;
+     }
+
+     .first-card p {
+         color: rgb(107, 103, 103);
+     }
+
+     .first-card h3 {
+         margin-top: 10px;
+     }
+ }
+
+
+ @media (min-width:350px) and (max-width:600px) {
+     .card {
+         margin-left: 35%;
+     }
+ }
+
+ @media (min-width:600px) and (max-width:980px) {
+     .card {
+         margin-left: 40%;
+     }
+ }
